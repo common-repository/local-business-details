@@ -1,0 +1,119 @@
+/* Google Badge Left */
+.grecaptcha-badge {
+width: 70px !important;
+overflow: hidden !important;
+transition: all 0.3s ease !important;
+left: -2px !important;
+bottom: 20px !important;
+}
+
+.grecaptcha-badge:hover {
+width: 256px !important;
+}
+
+/* Quick Contact */
+#drive-scheduler-btn:before {
+	content:"\1F4AC";
+	display: block;
+}
+#drive-scheduler-btn.img:before {
+	display: none;
+}
+#drive-scheduler-btn {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 999999998;
+    margin: 0 15px 15px 0;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    background: #0980FE;
+    font-size: 2rem;
+	cursor: pointer;
+	border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 43px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2); 
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2); 
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+#drive-scheduler {
+    position: fixed;
+    z-index: 999999999;
+    bottom: -400px;
+    right: 0px;
+    margin: 0 15px 15px 0;
+    padding: 15px 30px;
+    width: 100%;
+	max-width: 320px;
+	box-sizing: border-box;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2); 
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2); 
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+#drive-scheduler .close-btn {
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+#drive-scheduler .title-bar:before {
+	content:"\1F44B";
+	display:inline-block;
+	margin-right: 5px;
+}
+
+#drive-scheduler .title-bar { 
+    font-size: 1.4rem;
+    font-weight: bold;
+	color: #000;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#drive-scheduler .chat {
+	font-size: 1.1rem;
+	padding: 3px 6px;
+	display: flex;
+	flex-direction: column;
+    margin-bottom: 10px;
+}
+#drive-scheduler .chat p {
+	display: inline-block;
+	margin: 0;
+	padding: 8px 15px;
+	-webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+#drive-scheduler .provider { align-items: flex-start; }
+#drive-scheduler .provider p { background: #eee; color: #000; }
+#drive-scheduler .customer { align-items: flex-end; }
+#drive-scheduler .customer p {  background: #0980FE; color: #fff; }
+#drive-scheduler .customer p a { color: #fff; }
+#drive-scheduler .customer.phone p:before {
+	content:"\1F4F1";
+	display:inline-block;
+	margin-right: 5px;
+}
+#drive-scheduler .customer.email p:before {
+	content:"\2709";
+	display:inline-block;
+	margin-right: 5px;
+}
